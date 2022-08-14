@@ -68,4 +68,4 @@ The terminal that was provided by Code Institute to complete this project, used 
 
 ### Colours
 
-The colour scheme I have chosen is based on what The Riddler uses as his colors in the comics. Which was a bright lime green and electric purple as seen here [Ridder Colors]
+The colour scheme I have chosen is based on what The Riddler uses as his colors in the comics [Riddler Costume](https://www.gamelivestory.com/images/article/batman-8-times-riddler-acted-like-a-hero-in-the-comics-main.webp "Riddler Custome Colors"). Which was a bright [lime green](wireframes/images/color_contrast_green.png) and [electric purple](wireframes/images/color_contrast_purple.png).
