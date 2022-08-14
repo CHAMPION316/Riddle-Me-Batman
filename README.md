@@ -47,4 +47,16 @@ The goal of this project is to solve the riddles set forth by The Riddler. These
     * 1 Player Game
     * Words will be randomized
     * Lives will be deducted for incorrect guesses
-    
+* User will be given a riddle to solve the word
+    * The player creates a username
+    * Words care completely randomized
+    * The user decides what letters they choose
+* Player will be given 6 chances to figure out the word
+* If player can't figure out the word they lose the game
+* If player figures out the word the move on to the next word
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
