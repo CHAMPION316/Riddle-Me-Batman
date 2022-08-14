@@ -82,3 +82,21 @@ No images were used for this game, however, to have the title stand out, I used 
 ![Riddle Me Batman](wireframes/images/game-text-drip.png)
 ![Rules Text](wireframes/images/rules-text.png)
 ![Game Over](wireframes/images/game-over-text.png)
+
+### Structure
+The structure of this project has been mapped out using [App Diagrams](https://app.diagrams.net/ "app diagrams"), all the shapes were chosen by me to diagram the flow of the project.
+
+\
+&nbsp;
+![Begining of game flow](wireframes/structure-images/flow-key.png)
+\
+&nbsp;
+
+
+I then created the links between different parts of the game and changes depending on the user's input. I first started with the flow for the beginning of the game. This is where the user will enter their usrename and make a decision on reading the rules.
+
+\
+&nbsp;
+![Begining of game flow](wireframes/structure-images/start-of-game-flow-chart.png)
+\
+&nbsp;
