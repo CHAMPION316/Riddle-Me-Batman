@@ -12,3 +12,18 @@ The goal of this project is to solve the riddles set forth by The Riddler. These
 * Type in a user name
 * View High Scores
 * Exit the Game
+
+## User Stories
+* As a user, I want to be able create a user name 
+* As a user, I want to read the rules
+* As a user, I want to skip through game instructions if required
+* As a user, I want to know the outcome of the game
+
+## User Requirements and Expectations
+
+### Requirements
+* Single page layout
+* Feedback on performance
+* Clear instruction as to when the game starts and finishes
+* Validation of user inputs
+* Feedback to the user on their input to the game
