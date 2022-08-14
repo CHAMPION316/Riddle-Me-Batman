@@ -60,3 +60,12 @@ The goal of this project is to solve the riddles set forth by The Riddler. These
 [Back to Top](#table-of-contents)
 \
 &nbsp;
+
+## Design Choices
+### Fonts
+
+The terminal that was provided by Code Institute to complete this project, used a standard monospace font. Which is the font I decided to keep using. 
+
+### Colours
+
+The colour scheme I have chosen is based on what The Riddler uses as his colors in the comics. Which was a bright lime green and electric purple as seen here [Ridder Colors]
