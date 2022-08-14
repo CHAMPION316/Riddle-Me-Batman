@@ -64,7 +64,7 @@ The goal of this project is to solve the riddles set forth by The Riddler. These
 ## Design Choices
 ### Fonts
 
-The terminal that was provided by Code Institute to complete this project, used a standard monospace font. Which is the font I decided to keep using. 
+The terminal that was provided by Code Institute to complete this project, used a standard monospace font. Which is the font I decided to keep using.
 
 ### Colours
 
