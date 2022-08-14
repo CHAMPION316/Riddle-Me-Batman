@@ -71,3 +71,14 @@ The terminal that was provided by Code Institute to complete this project, used 
 The colour scheme I have chosen is based on what The Riddler uses as his colors in the comics [Riddler Costume](https://www.gamelivestory.com/images/article/batman-8-times-riddler-acted-like-a-hero-in-the-comics-main.webp "Riddler Custome Colors"). Which was a bright [lime green](wireframes/images/color_contrast_green.png) and [electric purple](wireframes/images/color_contrast_purple.png). I used [Coolors](https://coolors.co/ "Coolors") to create the colors myself instead of generating them randomly since I already knew what I wanted. [contrast checker](https://webaim.org/resources/contrastchecker/ "contract checker") was used to contrast the colors as my background choice with a black foreground text. Only the electric purple didn't pass in one catergory. Regardless I won't have text over these colors since they will only be the background colors and not run in the termimal.
 
 [Color Scheme](wireframes/images/coolors_scheme.png)
+
+### Images
+
+No images were used for this game, however, to have the title stand out, I used [patorjk.com](http://patorjk.com/software/taag/#p=display&h=1&f=Big&t=Riddle%20Me%20Batman%0A) with the font set to *Big* to create giant text that would appear as an image within the terminal.
+
+\
+&nbsp;
+
+![Riddle Me Batman](wireframes/images/game-text-drip.png)
+![Rules Text](wireframes/images/rules-text.png)
+![Game Over](wireframes/images/game-over-text.png)
