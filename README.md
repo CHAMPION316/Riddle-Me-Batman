@@ -34,3 +34,17 @@ The goal of this project is to solve the riddles set forth by The Riddler. These
 * I expect to have the option of reading the rules or not
 * I expect not to be able to make any typing errors
 * I expect feedback on performance
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+## How to Play
+
+* Will play like the standard paper and pencil game of hangman
+    * 1 Player Game
+    * Words will be randomized
+    * Lives will be deducted for incorrect guesses
+    
