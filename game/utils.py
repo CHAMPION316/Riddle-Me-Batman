@@ -10,3 +10,10 @@ def delay_print(text, delay):
     """
     print(" ", text)
     time.sleep(delay)
+
+
+def clear_terminal():
+    """
+    Clears the terminal
+    """
+    os.system('cls' if os.name == 'nt' else 'clear')
