@@ -100,3 +100,11 @@ I then created the links between different parts of the game and changes dependi
 ![Begining of game flow](wireframes/structure-images/start-of-game-flow-chart.png)
 \
 &nbsp;
+
+Now that the structure for created I could focus on building the rest. 
+
+\
+&nbsp;
+![Start of game flow]()
+\
+&nbsp;
