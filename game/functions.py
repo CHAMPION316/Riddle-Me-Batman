@@ -14,3 +14,8 @@ SHEET = GSPREAD_CLIENT.open('riddle_me_batman')
 
 high_scores = SHEET.worksheet('High_Scores')
 scores = high_scores.get_all_records()
+
+print(scores)
+
+
+def main():
