@@ -146,6 +146,12 @@ def play(word, letters_box):
                     scores[0][player] = game_results[player]
                     update_highscores_sheet()
                     welcome_screen()
+                elif game_results[player] > scores[0][player]:
+                    scores[0][player] = game_results[player]
+                    update_highscores_sheet()
+                    welcome_screen()
+                else:
+                    welcome_screen()
 
 
 def main():
