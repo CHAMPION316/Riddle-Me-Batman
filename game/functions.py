@@ -76,6 +76,9 @@ def check_if_guess_in_word():
     return guess.upper() in word.upper()
 
 
+def validate_guess():
+
+
 def main():
     """
     The main game loop
