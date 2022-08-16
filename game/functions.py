@@ -129,6 +129,11 @@ def play(word, letters_box):
         print(letters_box2)
         print(completed_word)
 
+    if guessed:
+        clear_terminal()
+        print("You just saved Robin!" + player +
+              ", you are an amazing riddle solver!")
+
 
 def main():
     """
