@@ -140,6 +140,8 @@ def play(word, letters_box):
             if play_again_after_win == 'Y':
                 game_results[player] += 1
                 play(get_word(), letters_box)
+            elif play_again_after_win == 'N':
+                game_results[player] += 1
 
 
 def main():
