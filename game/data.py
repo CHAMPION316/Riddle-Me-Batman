@@ -27,6 +27,7 @@ masked_word = ''
 
 
 def update_highscores_sheet():
+    keys = [str(eachvalue) for eachvalue in scores[0].keys()]
 
 
 def logo():
