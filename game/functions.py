@@ -87,7 +87,12 @@ def validate_guess(guess, guessed_letters):
     return False
 
 
-def play():
+def play(word, letters_box):
+    letters_box2 = letters_box
+    clear_terminal()
+    completed_word = "_" * len(word)
+    guessed = False
+    guessed_letters = []
 
 
 
