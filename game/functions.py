@@ -82,6 +82,10 @@ def validate_guess(guess, guessed_letters):
         return True
     if guess in guessed_letters:
         print("You've already guessed the letter: " + guess)
+    if guess.isalpha() is False:
+        print("Guess is not valid, please try again.")
+    return False
+
 
 
 def main():
