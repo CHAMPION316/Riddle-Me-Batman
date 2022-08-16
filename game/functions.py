@@ -156,6 +156,9 @@ def play(word, letters_box):
         print("Sorry " + player + ", you died")
         print("the word was " + word + ", better luck next time!")
 
+        while True:
+            
+
 
 def main():
     """
