@@ -134,6 +134,10 @@ def play(word, letters_box):
         print("You just saved Robin!" + player +
               ", you are an amazing riddle solver!")
 
+        while True:
+            play_again_after_win = input('  ' * 10 +
+                                         ' Play Again? ( Y / N ) : ').upper()
+
 
 def main():
     """
