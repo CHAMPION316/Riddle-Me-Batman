@@ -87,6 +87,9 @@ def validate_guess(guess, guessed_letters):
     return False
 
 
+def play():
+
+
 
 def main():
     """
