@@ -1,1 +1,3 @@
-import game.functions
+from game.functions import main
+
+main()
