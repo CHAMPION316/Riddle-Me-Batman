@@ -18,6 +18,16 @@ def welcome_screen():
     print("\n" * 2)
 
 
+def player_name():
+    clear_terminal()
+    attempts = 0
+    delay_print("{:^78}".format("Riddle Me Batman ?"), 1)
+    delay_print(show_robin(attempts))
+    delay_print(letters_box)
+    global player
+    letters_box2 = letters_box
+
+
 def main():
     """
     The main game loop
