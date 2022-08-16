@@ -5,9 +5,9 @@ def welcome_screen():
     clear_terminal()
     logo()
     print("\n" * 2)
-    print("{:^70}".format("1: PLAY GAME"))
-    print("{:^70}".format("2: HIGH SCORES"))
-    print("{:^70}".format("3: EXIT"))
+    delay_print("{:^70}".format("1: PLAY GAME"), 1)
+    delay_print("{:^70}".format("2: HIGH SCORES"), 1)
+    delay_print("{:^70}".format("3: EXIT"), 1)
     print("\n" * 2)
 
 
