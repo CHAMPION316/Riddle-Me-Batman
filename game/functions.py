@@ -62,6 +62,10 @@ def player_name():
             print("{:^74}".format("Please use letters only"))
 
 
+def replace_guess():
+    
+
+
 def main():
     """
     The main game loop
