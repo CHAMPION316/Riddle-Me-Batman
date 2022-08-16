@@ -152,6 +152,7 @@ def play(word, letters_box):
                     welcome_screen()
                 else:
                     welcome_screen()
+    else:
 
 
 def main():
