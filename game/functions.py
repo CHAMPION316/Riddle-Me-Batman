@@ -93,7 +93,7 @@ def play(word, letters_box):
     completed_word = "_" * len(word)
     guessed = False
     guessed_letters = []
-
+    attempts = 7
 
 
 def main():
