@@ -27,6 +27,9 @@ def welcome_screen():
             print("\n")
             ordered_scores = (dict(sorted(scores[0].items(),
                               key=operator.itemgetter(1), reverse=True)[:5]))
+            for key, val in ordered_scores.items():
+                print("{:^70}".format(f"{key} : {val}"))
+                print("\n")
 
 
 def player_name():
