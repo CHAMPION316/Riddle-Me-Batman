@@ -94,9 +94,12 @@ def play(word, letters_box):
     guessed = False
     guessed_letters = []
     attempts = 7
+    
     print(show_robin(attempts))
     print(letters_box2)
     print(completed_word)
+
+    while not guessed and attempts > 0:
 
 
 def main():
