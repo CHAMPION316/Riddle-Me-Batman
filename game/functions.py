@@ -159,6 +159,12 @@ def play(word, letters_box):
         while True:
             play_again_after_lose = input('  ' * 10 +
                                           ' Play Again? ( Y / N ) : ').upper()
+            if play_again_after_lose == 'Y':
+                play(get_word(), letters_box)
+            elif play_again_after_lose == 'N':
+                welcome_screen()
+            else:
+                print('{:^70}'.format(' Please choose option Y or N '))
 
 
 def main():
