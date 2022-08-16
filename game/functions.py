@@ -17,6 +17,8 @@ def welcome_screen():
     delay_print("{:^70}".format("3: EXIT"), 1)
     print("\n" * 2)
 
+     while True:
+
 
 def player_name():
     clear_terminal()
