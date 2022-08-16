@@ -157,7 +157,8 @@ def play(word, letters_box):
         print("the word was " + word + ", better luck next time!")
 
         while True:
-            
+            play_again_after_lose = input('  ' * 10 +
+                                          ' Play Again? ( Y / N ) : ').upper()
 
 
 def main():
