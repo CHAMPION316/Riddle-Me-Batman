@@ -1,21 +1,12 @@
-import gspread
-from google.oauth2.service_account import Credentials
+from .data import logo
+from .utils import delay_print, clear_terminal
 
-SCOPE = [
-    "https://www.googleapis.com/auth/spreadsheets",
-    "https://www.googleapis.com/auth/drive.file",
-    "https://www.googleapis.com/auth/drive"
-    ]
-
-CREDS = Credentials.from_service_account_file('creds.json')
-SCOPED_CREDS = CREDS.with_scopes(SCOPE)
-GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDS)
-SHEET = GSPREAD_CLIENT.open('riddle_me_batman')
-
-high_scores = SHEET.worksheet('High_Scores')
-scores = high_scores.get_all_records()
-
-print(scores)
+def welcome_screen():
+    logo()
 
 
 def main():
+    """
+    The main game loop
+    """
+    welcome_screen()
