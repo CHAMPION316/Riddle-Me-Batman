@@ -2,6 +2,7 @@ from .data import logo
 from .utils import delay_print, clear_terminal
 
 def welcome_screen():
+    clear_terminal()
     logo()
     print("\n" * 2)
     print("{:^70}".format("1: PLAY GAME"))
