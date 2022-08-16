@@ -137,6 +137,9 @@ def play(word, letters_box):
         while True:
             play_again_after_win = input('  ' * 10 +
                                          ' Play Again? ( Y / N ) : ').upper()
+            if play_again_after_win == 'Y':
+                game_results[player] += 1
+                play(get_word(), letters_box)
 
 
 def main():
