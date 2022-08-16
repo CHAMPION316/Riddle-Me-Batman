@@ -1,6 +1,8 @@
 from .utils import delay_print, clear_terminal
 from .words import word_list
-from .data import logo, current_word, masked_word, show_robin, letters_box
+from .data import logo, current_word, masked_word, show_robin, letters_box, high_scores, scores, game_results
+
+import random
 
 
 def get_word():
@@ -19,38 +21,38 @@ def welcome_screen():
 
     while True:
         welcome_screen_choice = input("  " * 11 + "Please choose an option : ")
-    if welcome_screen_choice == "1":
-        player_name()
-    elif welcome_screen_choice == "2":
-            clear_terminal()
-            print("{:^70}".format("HIGH SCORES : "))
-            print("\n")
-            ordered_scores = (dict(sorted(scores[0].items(),
-                              key=operator.itemgetter(1), reverse=True)[:5]))
-            for key, val in ordered_scores.items():
-                print("{:^70}".format(f"{key} : {val}"))
+        if welcome_screen_choice == "1":
+            player_name()
+        elif welcome_screen_choice == "2":
+                clear_terminal()
+                print("{:^70}".format("HIGH SCORES : "))
                 print("\n")
+                ordered_scores = (dict(sorted(scores[0].items(),
+                                key=operator.itemgetter(1), reverse=True)[:5]))
+                for key, val in ordered_scores.items():
+                    print("{:^70}".format(f"{key} : {val}"))
+                    print("\n")
 
-            while True:
-                if input("  " * 12 +
-                         " GO BACK TO MAIN MENU?(Y) : ").upper() == "Y":
-                    clear_terminal()
-                    welcome_screen()
-                else:
-                    print("{:^70}".format("Please Try Again"))
-    elif welcome_screen_choice == "3":
-            clear_terminal()
-            sys.exit()
-    else:
-            print("{:^70}".format("Please Choose option 1, 2 or 3"))
+                while True:
+                    if input("  " * 12 +
+                            " GO BACK TO MAIN MENU?(Y) : ").upper() == "Y":
+                        clear_terminal()
+                        welcome_screen()
+                    else:
+                        print("{:^70}".format("Please Try Again"))
+        elif welcome_screen_choice == "3":
+                clear_terminal()
+                sys.exit()
+        else:
+                print("{:^70}".format("Please Choose option 1, 2 or 3"))
 
 
 def player_name():
     clear_terminal()
     attempts = 0
     delay_print("{:^78}".format("Riddle Me Batman ?"), 1)
-    delay_print(show_robin(attempts))
-    delay_print(letters_box)
+    delay_print(show_robin(attempts), 1)
+    delay_print(letters_box, 1)
     global player
     letters_box2 = letters_box
     while True:
@@ -174,3 +176,13 @@ def main():
     letters_box2 = letters_box
     welcome_screen()
     current_word = get_word()
+    play(current_word, letters_box2)
+    while input("Play again? (Y/N) ").upper() == "Y":
+        letters_box2 = letters_box
+        word = get_word()
+        play(word, letters_box2)
+        welcome_screen()
+
+
+if __name__ == "__main__":
+    main()
