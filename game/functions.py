@@ -80,6 +80,8 @@ def validate_guess(guess, guessed_letters):
     if (len(guess) == 1) and guess.isalpha() and (
        guess not in guessed_letters):
         return True
+    if guess in guessed_letters:
+        print("You've already guessed the letter: " + guess)
 
 
 def main():
