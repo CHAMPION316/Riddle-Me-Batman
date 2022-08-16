@@ -38,6 +38,11 @@ def welcome_screen():
                     welcome_screen()
                 else:
                     print("{:^70}".format("Please Try Again"))
+    elif welcome_screen_choice == "3":
+            clear_terminal()
+            sys.exit()
+    else:
+            print("{:^70}".format("Please Choose option 1, 2 or 3"))
 
 
 def player_name():
