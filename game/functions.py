@@ -119,6 +119,11 @@ def play(word, letters_box):
                 else:
                     print("Sorry " + guess + " is not in the word.")
                     attempts -= 1
+            else:
+                if guess.isalpha():
+                    letters_box2 = letters_box2.replace(guess.upper(), '*')
+                if check_if_guess_in_word(guess, completed_word) is False:
+                    attempts -= 1
 
 
 def main():
