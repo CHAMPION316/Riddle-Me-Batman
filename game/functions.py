@@ -18,6 +18,8 @@ def welcome_screen():
     print("\n" * 2)
 
      while True:
+         welcome_screen_choice = input("  " * 11 + "Please choose an option : ")
+        if welcome_screen_choice == "1":
 
 
 def player_name():
