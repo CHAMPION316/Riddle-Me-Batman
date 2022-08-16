@@ -142,6 +142,10 @@ def play(word, letters_box):
                 play(get_word(), letters_box)
             elif play_again_after_win == 'N':
                 game_results[player] += 1
+                if player not in scores[0].keys():
+                    scores[0][player] = game_results[player]
+                    update_highscores_sheet()
+                    welcome_screen()
 
 
 def main():
