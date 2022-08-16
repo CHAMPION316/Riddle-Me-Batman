@@ -73,6 +73,7 @@ def replace_guess(word, masked_word, guess):
 
 
 def check_if_guess_in_word():
+    return guess.upper() in word.upper()
 
 
 def main():
