@@ -107,6 +107,8 @@ def play(word, letters_box):
                 attempts -= 1
             else:
                 guessed = True
+        else:
+            if validate_guess(guess, guessed_letters):
 
 
 def main():
