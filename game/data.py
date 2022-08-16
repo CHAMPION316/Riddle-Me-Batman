@@ -20,6 +20,10 @@ SHEET = GSPREAD_CLIENT.open('riddle_me_batman')
 
 high_scores = SHEET.worksheet('highscores')
 scores = high_scores.get_all_records()
+game_results = {}
+
+current_word = ''
+masked_word = ''
 
 def logo():
     """
