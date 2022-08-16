@@ -31,6 +31,7 @@ def update_highscores_sheet():
     values = [str(eachvalue) for eachvalue in scores[0].values()]
     update_results = [{'range': 'A1:Z1', 'values': [keys]},
                       {'range': 'A2:Z2', 'values': [values]}]
+    high_scores.batch_update(update_results)
 
 
 def logo():
