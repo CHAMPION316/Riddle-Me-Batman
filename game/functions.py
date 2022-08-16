@@ -1,5 +1,5 @@
-from .data import logo
 from .utils import delay_print, clear_terminal
+from .data import logo, current_word, masked_word
 
 def welcome_screen():
     clear_terminal()
