@@ -31,6 +31,14 @@ def welcome_screen():
                 print("{:^70}".format(f"{key} : {val}"))
                 print("\n")
 
+            while True:
+                if input("  " * 12 +
+                         " GO BACK TO MAIN MENU?(Y) : ").upper() == "Y":
+                    clear_terminal()
+                    welcome_screen()
+                else:
+                    print("{:^70}".format("Please Try Again"))
+
 
 def player_name():
     clear_terminal()
