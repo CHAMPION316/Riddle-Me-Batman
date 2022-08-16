@@ -26,6 +26,13 @@ def player_name():
     delay_print(letters_box)
     global player
     letters_box2 = letters_box
+    while True:
+        player = input("  " * 10 + " Please enter a Username: ").upper()
+        if player.isalpha():
+            game_results[player] = 0
+            play(get_word(), letters_box2)
+        else:
+            print("{:^74}".format("Please use letters only"))
 
 
 def main():
