@@ -25,6 +25,10 @@ game_results = {}
 current_word = ''
 masked_word = ''
 
+
+def update_highscores_sheet():
+
+
 def logo():
     """
     Text for the game logo
