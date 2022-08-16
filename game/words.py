@@ -1,4 +1,4 @@
-hero_list = [
+word_list = [
     'batman',
     'superman',
     'wonderwoman',
