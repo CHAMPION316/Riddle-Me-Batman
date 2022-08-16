@@ -153,6 +153,8 @@ def play(word, letters_box):
                 else:
                     welcome_screen()
     else:
+        print("Sorry " + player + ", you died")
+        print("the word was " + word + ", better luck next time!")
 
 
 def main():
