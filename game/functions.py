@@ -109,6 +109,13 @@ def play(word, letters_box):
                 guessed = True
         else:
             if validate_guess(guess, guessed_letters):
+                guessed_letters.append(guess)
+                letters_box2 = letters_box2.replace(guess.upper(), '*')
+                if check_if_guess_in_word(guess, word):
+                    completed_word = replace_guess(word, completed_word, guess)
+                    print("Well done!", guess, "is in the word.")
+                    if completed_word.upper() == word.upper():
+                        guessed = True
 
 
 def main():
