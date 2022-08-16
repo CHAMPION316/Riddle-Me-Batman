@@ -1,6 +1,6 @@
 from .utils import delay_print, clear_terminal
-from words import word_list
-from .data import logo, current_word, masked_word
+from .words import word_list
+from .data import logo, current_word, masked_word, show_robin, letters_box
 
 
 def get_word():
@@ -17,9 +17,16 @@ def welcome_screen():
     delay_print("{:^70}".format("3: EXIT"), 1)
     print("\n" * 2)
 
-     while True:
-         welcome_screen_choice = input("  " * 11 + "Please choose an option : ")
-        if welcome_screen_choice == "1":
+    while True:
+        welcome_screen_choice = input("  " * 11 + "Please choose an option : ")
+    if welcome_screen_choice == "1":
+        player_name()
+    elif welcome_screen_choice == "2":
+            clear_terminal()
+            print("{:^70}".format("HIGH SCORES : "))
+            print("\n")
+            ordered_scores = (dict(sorted(scores[0].items(),
+                              key=operator.itemgetter(1), reverse=True)[:5]))
 
 
 def player_name():
@@ -43,4 +50,6 @@ def main():
     """
     The main game loop
     """
+    letters_box2 = letters_box
     welcome_screen()
+    current_word = get_word()
