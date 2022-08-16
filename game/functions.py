@@ -105,6 +105,8 @@ def play(word, letters_box):
             if check_if_guess_in_word(guess, word) is False:
                 print("Sorry " + guess + " is not the word.")
                 attempts -= 1
+            else:
+                guessed = True
 
 
 def main():
