@@ -1,6 +1,8 @@
 from .utils import delay_print, clear_terminal
 from .words import word_list
-from .data import logo, current_word, masked_word, show_robin, letters_box, high_scores, scores, game_results
+from .data import logo, current_word, masked_word, show_robin, \
+    letters_box, high_scores, scores, game_results, \
+    update_highscores_sheet, operator
 
 import random
 
@@ -28,7 +30,7 @@ def welcome_screen():
                 print("{:^70}".format("HIGH SCORES : "))
                 print("\n")
                 ordered_scores = (dict(sorted(scores[0].items(),
-                                key=operator.itemgetter(1), reverse=True)[:5]))
+                                  key=operator.itemgetter(1), reverse=True)[:5]))
                 for key, val in ordered_scores.items():
                     print("{:^70}".format(f"{key} : {val}"))
                     print("\n")
