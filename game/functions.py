@@ -2,9 +2,10 @@ from .utils import delay_print, clear_terminal
 from .words import word_list
 from .data import logo, current_word, masked_word, show_robin, \
     letters_box, high_scores, scores, game_results, \
-    update_highscores_sheet, operator
+    update_highscores_sheet, operator, SHEET
 
 import random
+import sys
 
 
 def get_word():
@@ -26,27 +27,27 @@ def welcome_screen():
         if welcome_screen_choice == "1":
             player_name()
         elif welcome_screen_choice == "2":
-                clear_terminal()
-                print("{:^70}".format("HIGH SCORES : "))
+            clear_terminal()
+            print("{:^70}".format("HIGH SCORES : "))
+            print("\n")
+            ordered_scores = (dict(sorted(scores[0].items(),
+                              key=operator.itemgetter(1), reverse=True)[:5]))
+            for key, val in ordered_scores.items():
+                print("{:^70}".format(f"{key} : {val}"))
                 print("\n")
-                ordered_scores = (dict(sorted(scores[0].items(),
-                                  key=operator.itemgetter(1), reverse=True)[:5]))
-                for key, val in ordered_scores.items():
-                    print("{:^70}".format(f"{key} : {val}"))
-                    print("\n")
 
-                while True:
-                    if input("  " * 12 +
-                            " GO BACK TO MAIN MENU?(Y) : ").upper() == "Y":
-                        clear_terminal()
-                        welcome_screen()
-                    else:
-                        print("{:^70}".format("Please Try Again"))
+            while True:
+                if input("  " * 12 +
+                         " GO BACK TO MAIN MENU?(Y) : ").upper() == "Y":
+                    clear_terminal()
+                    welcome_screen()
+                else:
+                    print("{:^70}".format("Please Try Again"))
         elif welcome_screen_choice == "3":
-                clear_terminal()
-                sys.exit()
+            clear_terminal()
+            sys.exit()
         else:
-                print("{:^70}".format("Please Choose option 1, 2 or 3"))
+            print("{:^70}".format("Please Choose option 1, 2 or 3"))
 
 
 def player_name():
