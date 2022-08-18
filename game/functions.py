@@ -136,8 +136,8 @@ def play(word, letters_box):
 
     if guessed:
         clear_terminal()
-        print("You just saved Robin!" + player +
-              ", you are an amazing riddle solver!")
+        print("You just saved Robin! " + player +
+              ", you are an amazing riddle solver! \n")
 
         while True:
             play_again_after_win = input('  ' * 10 +
