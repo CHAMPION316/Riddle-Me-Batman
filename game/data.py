@@ -1,7 +1,4 @@
-import random
-import os
 import operator
-
 import gspread
 from google.oauth2.service_account import Credentials
 from .utils import delay_print, clear_terminal
@@ -28,8 +25,8 @@ masked_word = ''
 def update_highscores_sheet():
     keys = [str(eachvalue) for eachvalue in scores[0].keys()]
     values = [str(eachvalue) for eachvalue in scores[0].values()]
-    update_results = [{'range': 'A1:Z1', 'values': [keys]},
-                      {'range': 'A2:Z2', 'values': [values]}]
+    update_results = [{'range': 'A2:AZ', 'values': [keys]},
+                      {'range': 'B2:BZ', 'values': [values]}]
     high_scores.batch_update(update_results)
 
 
