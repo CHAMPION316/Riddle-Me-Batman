@@ -5,6 +5,7 @@ from .data import logo, current_word, masked_word, show_robin, \
     update_highscores_sheet, operator, SHEET
 
 import random
+import os
 import sys
 
 
@@ -140,7 +141,7 @@ def play(word, letters_box):
               ", you are an amazing riddle solver! \n")
 
         while True:
-            play_again_after_win = input('  ' * 10 +
+            play_again_after_win = input('  ' +
                                          ' Play Again? ( Y / N ) : ').upper()
             if play_again_after_win == 'Y':
                 game_results[player] += 1
