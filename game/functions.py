@@ -1,7 +1,7 @@
 from .utils import delay_print, clear_terminal
 from .words import word_list
 from .data import logo, CURRENT_WORD, HIDDEN_WORD, show_robin, \
-    letters_box, high_scores, scores, game_results, \
+    LETTERS_BOX, high_scores, scores, game_results, \
     update_highscores_sheet, SHEET
 
 import random
@@ -57,9 +57,9 @@ def player_name():
     attempts = 0
     delay_print("{:^78}".format("Riddle Me Batman ?"), 1)
     delay_print(show_robin(attempts), 1)
-    delay_print(letters_box, 1)
+    delay_print(LETTERS_BOX, 1)
     global player
-    letters_box2 = letters_box
+    letters_box2 = LETTERS_BOX
     while True:
         player = input("  " * 10 + " Please enter a Username: ").upper()
         if player.isalpha():
@@ -94,8 +94,8 @@ def validate_guess(guess, guessed_letters):
     return False
 
 
-def play(word, letters_box):
-    letters_box2 = letters_box
+def play(word, LETTERS_BOX):
+    letters_box2 = LETTERS_BOX
     clear_terminal()
     completed_word = "_" * len(word)
     guessed = False
@@ -146,7 +146,7 @@ def play(word, letters_box):
                                          ' Play Again? ( Y / N ) : ').upper()
             if play_again_after_win == 'Y':
                 game_results[player] += 1
-                play(get_word(), letters_box)
+                play(get_word(), LETTERS_BOX)
             elif play_again_after_win == 'N':
                 game_results[player] += 1
                 if player not in scores[0].keys():
@@ -167,7 +167,7 @@ def play(word, letters_box):
             play_again_after_lose = input('  ' * 10 +
                                           ' Play Again? ( Y / N ) : ').upper()
             if play_again_after_lose == 'Y':
-                play(get_word(), letters_box)
+                play(get_word(), LETTERS_BOX)
             elif play_again_after_lose == 'N':
                 welcome_screen()
             else:
@@ -178,12 +178,12 @@ def main():
     """
     The main game loop
     """
-    letters_box2 = letters_box
+    letters_box2 = LETTERS_BOX
     welcome_screen()
     CURRENT_WORD = get_word()
     play(CURRENT_WORD, letters_box2)
     while input("Play again? (Y/N) ").upper() == "Y":
-        letters_box2 = letters_box
+        letters_box2 = LETTERS_BOX
         word = get_word()
         play(word, letters_box2)
         welcome_screen()
