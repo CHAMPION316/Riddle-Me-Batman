@@ -6,7 +6,6 @@ from .data import logo, show_robin, \
 
 import random
 import operator
-import os
 import sys
 
 
@@ -131,7 +130,7 @@ def play(word, LETTERS_BOX):
                     letters_box2 = letters_box2.replace(guess.upper(), '*')
                 if check_if_guess_in_word(guess, completed_word) is False:
                     attempts -= 1
-                    
+
         print(show_robin(attempts))
         print(letters_box2)
         print(completed_word)
