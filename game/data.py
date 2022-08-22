@@ -1,3 +1,6 @@
+""" imports for google speadsheets and
+text delay print statements
+"""
 import gspread
 from google.oauth2.service_account import Credentials
 from .utils import delay_print
@@ -22,6 +25,10 @@ HIDDEN_WORD = ''
 
 
 def update_highscores_sheet():
+    """
+    Usernmae and score data that uses
+    googlesheets API
+    """
     keys = [str(eachvalue) for eachvalue in scores[0].keys()]
     values = [str(eachvalue) for eachvalue in scores[0].values()]
     update_results = [{'range': 'A1:Z1', 'values': [keys]},
@@ -44,6 +51,9 @@ def logo():
 
 
 def show_robin(attempts):
+    """
+    Attempt images for game answers
+    """
     phases = [
                 """
                     +---------------------------------+
