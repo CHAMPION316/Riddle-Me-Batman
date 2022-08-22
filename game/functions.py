@@ -18,7 +18,7 @@ def get_word():
     return word.upper()
 
 
-def welcome_screen():
+def home_screen():
     clear_terminal()
     logo()
     print("\n" * 2)
@@ -28,10 +28,10 @@ def welcome_screen():
     print("\n" * 2)
 
     while True:
-        welcome_screen_choice = input("  " * 11 + "Please choose an option : ")
-        if welcome_screen_choice == "1":
+        home_screen_choice = input("  " * 11 + "Please choose an option : ")
+        if home_screen_choice == "1":
             player_name()
-        elif welcome_screen_choice == "2":
+        elif home_screen_choice == "2":
             clear_terminal()
             print("{:^70}".format("HIGH SCORES : "))
             print("\n")
@@ -45,10 +45,10 @@ def welcome_screen():
                 if input("  " * 12 +
                          " GO BACK TO MAIN MENU?(Y) : ").upper() == "Y":
                     clear_terminal()
-                    welcome_screen()
+                    home_screen()
                 else:
                     print("{:^70}".format("Please Try Again"))
-        elif welcome_screen_choice == "3":
+        elif home_screen_choice == "3":
             clear_terminal()
             sys.exit()
         else:
@@ -155,13 +155,13 @@ def play(word, LETTERS_BOX):
                 if player not in scores[0].keys():
                     scores[0][player] = game_results[player]
                     update_highscores_sheet()
-                    welcome_screen()
+                    home_screen()
                 elif game_results[player] > scores[0][player]:
                     scores[0][player] = game_results[player]
                     update_highscores_sheet()
-                    welcome_screen()
+                    home_screen()
                 else:
-                    welcome_screen()
+                    home_screen()
     else:
         print("Sorry " + player + ", you died")
         print("the word was " + word + ", better luck next time!")
@@ -172,7 +172,7 @@ def play(word, LETTERS_BOX):
             if play_again_after_lose == 'Y':
                 play(get_word(), LETTERS_BOX)
             elif play_again_after_lose == 'N':
-                welcome_screen()
+                home_screen()
             else:
                 print('{:^70}'.format(' Please choose option Y or N '))
 
@@ -182,14 +182,14 @@ def main():
     The main game loop
     """
     letters_box2 = LETTERS_BOX
-    welcome_screen()
+    home_screen()
     CURRENT_WORD = get_word()
     play(CURRENT_WORD, letters_box2)
     while input("Play again? (Y/N) ").upper() == "Y":
         letters_box2 = LETTERS_BOX
         word = get_word()
         play(word, letters_box2)
-        welcome_screen()
+        home_screen()
 
 
 if __name__ == "__main__":
