@@ -60,6 +60,9 @@ def home_screen():
 
 
 def player_name():
+    """
+    Create player name to play game
+    """
     clear_terminal()
     attempts = 0
     delay_print("{:^78}".format("Riddle Me Batman ?"), 1)
@@ -77,6 +80,9 @@ def player_name():
 
 
 def replace_guess(word, HIDDEN_WORD, guess):
+    """
+    Replace guessed letter in word
+    """
     index = 0
     HIDDEN_WORD = list(HIDDEN_WORD)
     for letter in word:
@@ -91,6 +97,9 @@ def check_if_guess_in_word(guess, word):
 
 
 def validate_guess(guess, guessed_letters):
+    """
+    Validate guessed letters in word
+    """
     if (len(guess) == 1) and guess.isalpha() and (
        guess not in guessed_letters):
         return True
@@ -102,6 +111,9 @@ def validate_guess(guess, guessed_letters):
 
 
 def play(word, LETTERS_BOX):
+    """
+    Full gameplay functionality function
+    """
     letters_box2 = LETTERS_BOX
     clear_terminal()
     completed_word = "_" * len(word)

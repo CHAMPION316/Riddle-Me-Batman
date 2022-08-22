@@ -1,3 +1,6 @@
+"""
+Word list variable for game
+"""
 word_list = [
     'batman',
     'superman',
