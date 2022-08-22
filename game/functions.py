@@ -1,6 +1,6 @@
 from .utils import delay_print, clear_terminal
 from .words import word_list
-from .data import logo, CURRENT_WORD, HIDDEN_WORD, show_robin, \
+from .data import logo, HIDDEN_WORD, show_robin, \
     LETTERS_BOX, high_scores, scores, game_results, \
     update_highscores_sheet, SHEET
 
