@@ -2,7 +2,7 @@ from .utils import delay_print, clear_terminal
 from .words import word_list
 from .data import logo, show_robin, \
     LETTERS_BOX, scores, game_results, \
-    update_highscores_sheet, SHEET
+    update_highscores_sheet
 
 import random
 import operator
