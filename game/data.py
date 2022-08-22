@@ -1,4 +1,4 @@
-""" 
+"""
 imports for google speadsheets and
 text delay print statements
 """

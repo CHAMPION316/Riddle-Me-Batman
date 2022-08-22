@@ -93,6 +93,9 @@ def replace_guess(word, HIDDEN_WORD, guess):
 
 
 def check_if_guess_in_word(guess, word):
+    """
+    Check if player guess is in word
+    """
     return guess.upper() in word.upper()
 
 
