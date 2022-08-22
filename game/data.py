@@ -18,7 +18,7 @@ scores = high_scores.get_all_records()
 game_results = {}
 
 CURRENT_WORD = ''
-masked_word = ''
+HIDDEN_WORD = ''
 
 
 def update_highscores_sheet():

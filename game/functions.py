@@ -1,6 +1,6 @@
 from .utils import delay_print, clear_terminal
 from .words import word_list
-from .data import logo, CURRENT_WORD, masked_word, show_robin, \
+from .data import logo, CURRENT_WORD, HIDDEN_WORD, show_robin, \
     letters_box, high_scores, scores, game_results, \
     update_highscores_sheet, SHEET
 
@@ -69,14 +69,14 @@ def player_name():
             print("{:^74}".format("Please use letters only"))
 
 
-def replace_guess(word, masked_word, guess):
+def replace_guess(word, HIDDEN_WORD, guess):
     index = 0
-    masked_word = list(masked_word)
+    HIDDEN_WORD = list(HIDDEN_WORD)
     for letter in word:
         if letter.upper() == guess.upper():
-            masked_word[index] = guess
+            HIDDEN_WORD[index] = guess
         index = index + 1
-    return ''.join(masked_word)
+    return ''.join(HIDDEN_WORD)
 
 
 def check_if_guess_in_word(guess, word):
