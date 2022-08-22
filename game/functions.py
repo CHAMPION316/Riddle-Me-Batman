@@ -141,7 +141,7 @@ def play(word, LETTERS_BOX):
 
     if guessed:
         clear_terminal()
-        print("You just saved Robin! " + player +
+        print("You just saved Robin! \n " + player +
               ", you are an amazing riddle solver! \n")
 
         while True:
