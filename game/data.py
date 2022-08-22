@@ -1,4 +1,5 @@
-""" imports for google speadsheets and
+""" 
+imports for google speadsheets and
 text delay print statements
 """
 import gspread

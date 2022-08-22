@@ -1,15 +1,19 @@
+""" Imports for game functionality """
+import random
+import operator
+import sys
+
 from .utils import delay_print, clear_terminal
 from .words import word_list
 from .data import logo, show_robin, \
     LETTERS_BOX, scores, game_results, \
     update_highscores_sheet
 
-import random
-import operator
-import sys
-
 
 def get_word():
+    """
+    Function that randomizes word_list
+    """
     word = random.choice(word_list)
     return word.upper()
 
