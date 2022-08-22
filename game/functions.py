@@ -1,6 +1,6 @@
 from .utils import delay_print, clear_terminal
 from .words import word_list
-from .data import logo, current_word, masked_word, show_robin, \
+from .data import logo, CURRENT_WORD, masked_word, show_robin, \
     letters_box, high_scores, scores, game_results, \
     update_highscores_sheet, SHEET
 
@@ -180,8 +180,8 @@ def main():
     """
     letters_box2 = letters_box
     welcome_screen()
-    current_word = get_word()
-    play(current_word, letters_box2)
+    CURRENT_WORD = get_word()
+    play(CURRENT_WORD, letters_box2)
     while input("Play again? (Y/N) ").upper() == "Y":
         letters_box2 = letters_box
         word = get_word()

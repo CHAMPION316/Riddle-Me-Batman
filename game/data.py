@@ -1,6 +1,6 @@
 import gspread
 from google.oauth2.service_account import Credentials
-from .utils import delay_print, clear_terminal
+from .utils import delay_print
 
 SCOPE = [
     "https://www.googleapis.com/auth/spreadsheets",
@@ -17,7 +17,7 @@ high_scores = SHEET.worksheet('highscores')
 scores = high_scores.get_all_records()
 game_results = {}
 
-current_word = ''
+CURRENT_WORD = ''
 masked_word = ''
 
 
