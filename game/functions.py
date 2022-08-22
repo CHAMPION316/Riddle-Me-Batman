@@ -19,6 +19,10 @@ def get_word():
 
 
 def home_screen():
+    """
+    Home screen options and inputs
+    for opening game
+    """
     clear_terminal()
     logo()
     print("\n" * 2)
