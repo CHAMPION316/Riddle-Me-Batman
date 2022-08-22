@@ -2,9 +2,10 @@ from .utils import delay_print, clear_terminal
 from .words import word_list
 from .data import logo, current_word, masked_word, show_robin, \
     letters_box, high_scores, scores, game_results, \
-    update_highscores_sheet, operator, SHEET
+    update_highscores_sheet, SHEET
 
 import random
+import operator
 import os
 import sys
 
