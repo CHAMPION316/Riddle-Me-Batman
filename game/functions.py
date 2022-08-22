@@ -1,7 +1,7 @@
 from .utils import delay_print, clear_terminal
 from .words import word_list
 from .data import logo, show_robin, \
-    LETTERS_BOX, high_scores, scores, game_results, \
+    LETTERS_BOX, scores, game_results, \
     update_highscores_sheet, SHEET
 
 import random
