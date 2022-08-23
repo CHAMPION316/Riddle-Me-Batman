@@ -180,7 +180,7 @@ def show_robin(attempts):
     return phases[attempts]
 
 
-LETTERS_BOX = """                    |    A B C D E F G H I J K L M    |
+game_letters = """                    |    A B C D E F G H I J K L M    |
                     |    N O P Q R S T U V W X Y Z    |
                     |                                 |
                     +---------------------------------+
