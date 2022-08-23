@@ -122,3 +122,13 @@ The game will be built using a pre-built template that Code Institute has provid
 * [Tablet Wireframe](wireframes/wireframe-images/tablet.png "Tablet")
 
 * [Desktop Wireframe](wireframes/wireframe-images/desktop.png "Desktop")
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+# Features
+
+## Existing Features
