@@ -74,14 +74,13 @@ The colour scheme I have chosen is based on what The Riddler uses as his colors 
 
 ### Images
 
-No images were used for this game, however, to have the title stand out, I used [patorjk.com](http://patorjk.com/software/taag/#p=display&h=1&f=Big&t=Riddle%20Me%20Batman%0A) with the font set to *Big* to create giant text that would appear as an image within the terminal.
+No images were used for this game, however, to have the title stand out, I used [patorjk.com](http://patorjk.com/software/taag/#p=display&h=1&f=Big&t=Riddle%20Me%20Batman%0A) with the font set to *Calvin S* to create giant text that would appear as though it's an image on the home terminal.
 
 \
 &nbsp;
 
-![Riddle Me Batman](wireframes/images/game-text-drip.png)
-![Rules Text](wireframes/images/rules-text.png)
-![Game Over](wireframes/images/game-over-text.png)
+![Riddle Me Batman](wireframes/images/riddle-font.jpg)
+
 
 ### Structure
 The structure of this project has been mapped out using [App Diagrams](https://app.diagrams.net/ "app diagrams"), all the shapes were chosen by me to diagram the flow of the project.
