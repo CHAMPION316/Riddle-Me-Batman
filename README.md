@@ -146,7 +146,7 @@ Image of the home screen when the player runs the program. The user will be gree
 \
 &nbsp;
 
-* The next image is of the game itself which is that of the old school hangman game but with the twist that it's based on DC Comic characters.
+* The next image is of the game itself which is that of the old school hangman game but with the twist that it's Robin you have to save from being hung. The user with have to guess letters 1 by 1 in order to solve the word. When the user makes a guess whether correct or wong a * asterisk will fill the place of the letters gussed so the user knows not to choose that letter again. However in this game that is still a possibility in which the user will get a string that let's them know they already guessed that letter and still waste an attempt. 
 
 \
 &nbsp;
@@ -216,9 +216,23 @@ Image of the home screen when the player runs the program. The user will be gree
 \
 &nbsp;
 
-* Winning the game results in the following image with the 2 options to play again or not.
+* Winning the game results in the following image with the 2 options to play again or not by using the following inputs.
+    * 'Y' for Yes
+    * 'N' for No
 
 \
 &nbsp;
 
-![Winner](wireframes/images/win-image.jpg)
+![Win](wireframes/images/win-image.jpg)
+
+\
+&nbsp;
+
+* Losing the game results in the following image with the 2 options to play again or not by using the following inputs.
+    * 'Y' for Yes
+    * 'N' for No
+
+\
+&nbsp;
+
+![Lose](wireframes/images/lose-image.jpg)
