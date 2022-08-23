@@ -92,20 +92,18 @@ The structure of this project has been mapped out using [App Diagrams](https://a
 &nbsp;
 
 
-I then created the links between different parts of the game and changes depending on the user's input. I first started with the flow for the beginning of the game. This is where the user will enter their usrename and make a decision on reading the rules.
+I created 3 choice inputs for the start of the game.
+
+1. Start Game
+2. High Scores
+3. Exit
+
+From ther the logic can be followed with the flow chart structure below. 
 
 \
 &nbsp;
 ![Flow chart part 1](wireframes/structure-images/riddle-flow-chart-pt1.jpg)
 ![Flow chart part 2](wireframes/structure-images/riddle-flow-chart-pt2.jpg)
 
-\
-&nbsp;
-
-Now that the structure for created I could focus on building the rest. 
-
-\
-&nbsp;
-![Start of game flow]()
 \
 &nbsp;
