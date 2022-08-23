@@ -236,3 +236,23 @@ Image of the home screen when the player runs the program. The user will be gree
 &nbsp;
 
 ![Lose](wireframes/images/lose-image.jpg)
+
+\
+&nbsp;
+
+* Google spreadsheets works with the data being sent to it by the game.
+    * Username
+    * Score
+
+\
+&nbsp;
+
+![Data](wireframes/images/data-image.jpg)
+
+\
+&nbsp;
+
+## Features to be Implemented
+
+1. Riddle array that attaches at the bottom of the game letters box
+1. Sound effects for guessing the correct letter and wrong letter
