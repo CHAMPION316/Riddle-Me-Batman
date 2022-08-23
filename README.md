@@ -212,3 +212,13 @@ Image of the home screen when the player runs the program. The user will be gree
 &nbsp;
 
 ![Repeat Guess](wireframes/images/repeat-guess.jpg)
+
+\
+&nbsp;
+
+* Winning the game results in the following image with the 2 options to play again or not.
+
+\
+&nbsp;
+
+![Winner](wireframes/images/win-image.jpg)
