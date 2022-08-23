@@ -104,6 +104,21 @@ From ther the logic can be followed with the flow chart structure below.
 &nbsp;
 ![Flow chart part 1](wireframes/structure-images/riddle-flow-chart-pt1.jpg)
 ![Flow chart part 2](wireframes/structure-images/riddle-flow-chart-pt2.jpg)
+\
+&nbsp;
 
 \
 &nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+# Wireframes
+
+The game will be built using a pre-built template that Code Institute has provided. This template already scales down for different screen sizes. For this reason I kept my wireframes simple.
+
+* [Mobile Wireframe](wireframes/wireframe-images/mobile.png "Mobile")
+
+* [Tablet Wireframe](wireframes/wireframe-images/tablet.png "Tablet")
+
+* [Desktop Wireframe](wireframes/wireframe-images/desktop.png "Desktop")
