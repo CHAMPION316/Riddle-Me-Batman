@@ -202,3 +202,13 @@ Image of the home screen when the player runs the program. The user will be gree
 &nbsp;
 
 ![Guess Correct](wireframes/images/guess-correct.jpg)
+
+\
+&nbsp;
+
+* A repeated guess results in the following image.
+
+\
+&nbsp;
+
+![Repeat Guess](wireframes/images/repeat-guess.jpg)
