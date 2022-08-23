@@ -37,7 +37,7 @@ def home_screen():
             player_name()
         elif home_screen_choice == "2":
             clear_terminal()
-            print("{:^70}".format("HIGH SCORES : "))
+            print("{:^70}".format("HIGH SCORE RIDDLE SOLVERS : "))
             print("\n")
             ordered_scores = (dict(sorted(scores[0].items(),
                               key=operator.itemgetter(1), reverse=True)[:5]))
@@ -47,7 +47,7 @@ def home_screen():
 
             while True:
                 if input("  " * 12 +
-                         " GO BACK TO MAIN MENU?(Y) : ").upper() == "Y":
+                         " RETURN TO MAIN MENU?(Y) : ").upper() == "Y":
                     clear_terminal()
                     home_screen()
                 else:

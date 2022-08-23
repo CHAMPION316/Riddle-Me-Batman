@@ -132,3 +132,23 @@ The game will be built using a pre-built template that Code Institute has provid
 # Features
 
 ## Existing Features
+
+Image of the home screen when the player runs the program. The user will be greeted with the 3 input options.
+    * Play Game
+    * High Scores
+    * Exit
+
+\
+&nbsp;
+
+![Home Screen](wireframes/images/home-image.jpg)
+
+\
+&nbsp;
+
+The next image is of the game itself which is that of the old school hangman game but with the twist that it's base on DC Comic characters.
+
+\
+&nbsp;
+
+![Play Game](wireframes/images/play-image.jpg)
