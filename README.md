@@ -156,9 +156,19 @@ The next image is of the game itself which is that of the old school hangman gam
 \
 &nbsp;
 
-Lastly is the score image of the top 5 players who were able to guess the names of the DC characters.
+The score image list the top 5 players who were able to guess the most DC characters ever.
 
 \
 &nbsp;
 
 ![Scores](wireframes/images/score-image.jpg)
+
+\
+&nbsp;
+
+The username appears at the bottom underneath the game letters.
+
+\
+&nbsp;
+
+![Username](wireframes/images/username-image.jpg)
