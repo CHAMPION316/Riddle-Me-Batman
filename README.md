@@ -156,7 +156,7 @@ Image of the home screen when the player runs the program. The user will be gree
 \
 &nbsp;
 
-* The score image list the top 5 players who were able to guess the most DC characters ever.
+* The score image list the top 5 players who were able to guess the most DC characters ever. If a user surpasses the score of of anyone of the top 5 players they will be added to the top 5 list and remove those that have the lowest score.
 
 \
 &nbsp;
@@ -166,7 +166,7 @@ Image of the home screen when the player runs the program. The user will be gree
 \
 &nbsp;
 
-* The username appears at the bottom underneath the game letters.
+* The username input field appears at the bottom underneath the game letters. From there the player will create a username that will allow them to play the game and have the chance to have their name recorded into the top 5 list if they are good enough.
 
 \
 &nbsp;
@@ -176,7 +176,7 @@ Image of the home screen when the player runs the program. The user will be gree
 \
 &nbsp;
 
-* Guess the letters screen is as follows which appears after the game letters at the bottom.
+* Guess the letters screen allows the player to guess what letters belong in the word.
 
 \
 &nbsp;
