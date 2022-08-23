@@ -146,7 +146,7 @@ Image of the home screen when the player runs the program. The user will be gree
 \
 &nbsp;
 
-The next image is of the game itself which is that of the old school hangman game but with the twist that it's based on DC Comic characters.
+* The next image is of the game itself which is that of the old school hangman game but with the twist that it's based on DC Comic characters.
 
 \
 &nbsp;
@@ -156,7 +156,7 @@ The next image is of the game itself which is that of the old school hangman gam
 \
 &nbsp;
 
-The score image list the top 5 players who were able to guess the most DC characters ever.
+* The score image list the top 5 players who were able to guess the most DC characters ever.
 
 \
 &nbsp;
@@ -166,7 +166,7 @@ The score image list the top 5 players who were able to guess the most DC charac
 \
 &nbsp;
 
-The username appears at the bottom underneath the game letters.
+* The username appears at the bottom underneath the game letters.
 
 \
 &nbsp;
@@ -176,7 +176,7 @@ The username appears at the bottom underneath the game letters.
 \
 &nbsp;
 
-Guess the letters screen is as follows which appears after the game letters at the bottom.
+* Guess the letters screen is as follows which appears after the game letters at the bottom.
 
 \
 &nbsp;
@@ -186,9 +186,19 @@ Guess the letters screen is as follows which appears after the game letters at t
 \
 &nbsp;
 
-Guessing incorrectly results in the following image within the game.
+* Guessing incorrectly results in the following image within the game.
 
 \
 &nbsp;
 
 ![Guess Wrong](wireframes/images/guess-wrong.jpg)
+
+\
+&nbsp;
+
+* Guessing correctly results in the following image within the game.
+
+\
+&nbsp;
+
+![Guess Correct](wireframes/images/guess-correct.jpg)
