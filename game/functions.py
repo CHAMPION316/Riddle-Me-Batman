@@ -117,7 +117,7 @@ def play(word, game_letters):
     """
     Full gameplay functionality function
     """
-    letters_box2 = game_letters
+    game_letters2 = game_letters
     clear_terminal()
     completed_word = "_" * len(word)
     guessed = False
@@ -125,7 +125,7 @@ def play(word, game_letters):
     attempts = 7
 
     print(show_robin(attempts))
-    print(letters_box2)
+    print(game_letters2)
     print(completed_word)
 
     while not guessed and attempts > 0:
@@ -139,7 +139,7 @@ def play(word, game_letters):
         else:
             if validate_guess(guess, guessed_letters):
                 guessed_letters.append(guess)
-                letters_box2 = letters_box2.replace(guess.upper(), '*')
+                game_letters2 = game_letters2.replace(guess.upper(), '*')
                 if check_if_guess_in_word(guess, word):
                     completed_word = replace_guess(word, completed_word, guess)
                     print("Well done!", guess, "is in the word.")
@@ -150,12 +150,12 @@ def play(word, game_letters):
                     attempts -= 1
             else:
                 if guess.isalpha():
-                    letters_box2 = letters_box2.replace(guess.upper(), '*')
+                    game_letters2 = game_letters2.replace(guess.upper(), '*')
                 if check_if_guess_in_word(guess, completed_word) is False:
                     attempts -= 1
 
         print(show_robin(attempts))
-        print(letters_box2)
+        print(game_letters2)
         print(completed_word)
 
     if guessed:
@@ -200,14 +200,14 @@ def main():
     """
     The main game loop
     """
-    letters_box2 = game_letters
+    game_letters2 = game_letters
     home_screen()
     current_word = get_word()
-    play(current_word, letters_box2)
+    play(current_word, game_letters2)
     while input("Play again? (Y/N) ").upper() == "Y":
-        letters_box2 = game_letters
+        game_letters2 = game_letters
         word = get_word()
-        play(word, letters_box2)
+        play(word, game_letters2)
         home_screen()
 
 
