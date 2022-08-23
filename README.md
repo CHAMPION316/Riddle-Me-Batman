@@ -146,9 +146,19 @@ Image of the home screen when the player runs the program. The user will be gree
 \
 &nbsp;
 
-The next image is of the game itself which is that of the old school hangman game but with the twist that it's base on DC Comic characters.
+The next image is of the game itself which is that of the old school hangman game but with the twist that it's based on DC Comic characters.
 
 \
 &nbsp;
 
 ![Play Game](wireframes/images/play-image.jpg)
+
+\
+&nbsp;
+
+Lastly is the score image of the top 5 players who were able to guess the names of the DC characters.
+
+\
+&nbsp;
+
+![Scores](wireframes/images/score-image.jpg)
