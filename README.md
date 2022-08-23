@@ -172,3 +172,13 @@ The username appears at the bottom underneath the game letters.
 &nbsp;
 
 ![Username](wireframes/images/username-image.jpg)
+
+\
+&nbsp;
+
+Guessing the letters screen is as follows which appears after the game letters at the bottom.
+
+\
+&nbsp;
+
+![Guess](wireframes/images/guess-image.jpg)
