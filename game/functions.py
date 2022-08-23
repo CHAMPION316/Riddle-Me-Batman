@@ -26,7 +26,7 @@ def home_screen():
     clear_terminal()
     logo()
     print("\n" * 2)
-    delay_print("{:^70}".format("1: PLAY GAME"), 1)
+    delay_print("{:^70}".format("1: SAVE ROBIN (PLAY GAME)"), 1)
     delay_print("{:^70}".format("2: HIGH SCORES"), 1)
     delay_print("{:^70}".format("3: EXIT"), 1)
     print("\n" * 2)
