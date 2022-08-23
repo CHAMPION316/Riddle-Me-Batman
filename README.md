@@ -6,6 +6,35 @@ The goal of this project is to solve the riddles set forth by The Riddler. These
 
 # Table of Contents
 * [UX](#ux "UX")
+    * [User Goals](#user-goals "User Goals")
+    * [User Stories](#user-stories "User Stories")
+    * [Site Owners Goals](#site-owners-goals)
+    * [User Requirements and Expectations](#user-requirements-and-expectations)
+         * [Requirements](#requirements)
+         * [Expectations](#expectations)
+    * [How to Play](#how-to-play)
+    * [Design Choices](#design-choices)
+        * [Fonts](#fonts)
+        * [Colours](#colours)
+        * [Images](#images)
+        * [Structure](#structure)
+    * [Wireframes](#wireframes)
+    * [Features](#features)
+        * [Existing Features](#existing-features)
+        * [Features to be implemented](#features-to-be-implemented)
+    * [Technologies used](#technologies-used)
+        * [Languages](#languages)
+        * [Libraries and Frameworks](#libraries-and-frameworks)
+        * [Tools](#tools)
+    * [Testing](#testing)
+        * [UX Testing](#ux-testing)
+        * [Code Validation](#code-validation)
+        * [Bugs](#bugs)
+        * [Unfixed Bugs](#unfixed-bugs)
+    * [Deployment](#deployment)
+    * [Credits](#credits)
+
+# UX
 
 ## User Goals
 * Read rules
@@ -18,6 +47,12 @@ The goal of this project is to solve the riddles set forth by The Riddler. These
 * As a user, I want to read the rules
 * As a user, I want to skip through game instructions if required
 * As a user, I want to know the outcome of the game
+
+## Site owners Goals
+* Have a visual presentation of the game 
+* Give the user feedback on performance
+* Ensure that there is validation for expected answers on all user inputs
+* Simplify user input directions
 
 ## User Requirements and Expectations
 
@@ -256,3 +291,9 @@ Image of the home screen when the player runs the program. The user will be gree
 
 1. Riddle array that attaches at the bottom of the game letters box
 1. Sound effects for guessing the correct letter and wrong letter
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
