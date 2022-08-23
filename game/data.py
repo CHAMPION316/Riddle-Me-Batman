@@ -21,8 +21,8 @@ high_scores = SHEET.worksheet('highscores')
 scores = high_scores.get_all_records()
 game_results = {}
 
-CURRENT_WORD = ''
-HIDDEN_WORD = ''
+current_word = ''
+hidden_word = ''
 
 
 def update_highscores_sheet():

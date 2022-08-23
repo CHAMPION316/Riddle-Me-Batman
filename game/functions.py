@@ -79,17 +79,17 @@ def player_name():
             print("{:^74}".format("Please use letters only"))
 
 
-def replace_guess(word, HIDDEN_WORD, guess):
+def replace_guess(word, hidden_word, guess):
     """
     Replace guessed letter in word
     """
     index = 0
-    HIDDEN_WORD = list(HIDDEN_WORD)
+    hidden_word = list(hidden_word)
     for letter in word:
         if letter.upper() == guess.upper():
-            HIDDEN_WORD[index] = guess
+            hidden_word[index] = guess
         index = index + 1
-    return ''.join(HIDDEN_WORD)
+    return ''.join(hidden_word)
 
 
 def check_if_guess_in_word(guess, word):
@@ -202,8 +202,8 @@ def main():
     """
     letters_box2 = LETTERS_BOX
     home_screen()
-    CURRENT_WORD = get_word()
-    play(CURRENT_WORD, letters_box2)
+    current_word = get_word()
+    play(current_word, letters_box2)
     while input("Play again? (Y/N) ").upper() == "Y":
         letters_box2 = LETTERS_BOX
         word = get_word()
