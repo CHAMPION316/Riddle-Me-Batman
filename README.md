@@ -176,9 +176,19 @@ The username appears at the bottom underneath the game letters.
 \
 &nbsp;
 
-Guessing the letters screen is as follows which appears after the game letters at the bottom.
+Guess the letters screen is as follows which appears after the game letters at the bottom.
 
 \
 &nbsp;
 
 ![Guess](wireframes/images/guess-image.jpg)
+
+\
+&nbsp;
+
+Guessing incorrectly results in the following image within the game.
+
+\
+&nbsp;
+
+![Guess Wrong](wireframes/images/guess-wrong.jpg)
