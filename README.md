@@ -87,7 +87,7 @@ The structure of this project has been mapped out using [App Diagrams](https://a
 
 \
 &nbsp;
-![Begining of game flow](wireframes/structure-images/flow-key.png)
+![Begining of game flow](wireframes/structure-images/flow-key.jpg)
 \
 &nbsp;
 
@@ -96,7 +96,9 @@ I then created the links between different parts of the game and changes dependi
 
 \
 &nbsp;
-![Begining of game flow](wireframes/structure-images/start-of-game-flow-chart.png)
+![Flow chart part 1](wireframes/structure-images/riddle-flow-chart-pt1.jpg)
+![Flow chart part 2](wireframes/structure-images/riddle-flow-chart-pt2.jpg)
+
 \
 &nbsp;
 
