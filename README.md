@@ -467,3 +467,40 @@ git clone https://github.com/CHAMPION316/Riddle-Me-Batman
 * The repo will now be downloaded and cloned
 * Open your [GitPod workspaces](https://gitpod.io/workspaces "GitPod workspaces")
 * Select the three dots to the right-hand side of your workspace and select **Pin**
+
+### Set up your Workspace
+
+* Locate your credentials file that you downloaded in the [Activate API Credentials](#activate-api-credentials) section.
+* Drag and drop it into your workspace, below the files.
+* Right-click on the file and rename it to *creds.json*
+* Open the creds.json file and copy the content of the client email
+
+ ```
+ "client_mail": "____copy_this_____"
+ ```
+
+* Open your Google Sheets worksheet previously created.
+* Click the **Share** button in the top right corner
+* Paste in the *client email*
+* Ensure *Editor* is selected in the dropdown
+* Unselect the *Notify people* checkbox
+* Click the **Share** button
+* Go back to your workspace
+* Open the file *gitignore*
+* Add *creds.json* to the bottom of the list and save the file *(Ctrl + S)*
+* In the terminal in your workspace, type the following and then press enter:
+```
+git add .
+
+```
+* In the terminal then, type the following and then press enter:
+```
+git status
+
+```
+* If your creds.json file appears in the terminal, please revisit from the *'Go back to your workspace'* point as a mistake has been made.
+* To install your dependencies into the workspace, enter the below code into the terminal and then hit enter
+
+```
+pip3 install gspread google-auth
+```
