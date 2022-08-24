@@ -66,10 +66,9 @@ The goal of this project is to save Robin by guessing words set forth by The Rid
 * Feedback to the user on their input to the game
 
 ### Expectations
-* I expect to know that it is my game based on a username
+* I expect to have a username
 * I expect to know when the game starts and finishes
-* I expect to have the option of reading the rules or not
-* I expect not to be able to make any typing errors
+* I expect the game not to crash if incorrect input is typed
 * I expect feedback on performance
 
 \
@@ -83,14 +82,14 @@ The goal of this project is to save Robin by guessing words set forth by The Rid
 * Will play like the standard paper and pencil game of hangman
     * 1 Player Game
     * Words will be randomized
-    * Lives will be deducted for incorrect guesses
+    * Lives will be deducted for incorrect guesses or same letter guesses
 * User will be given a riddle to solve the word
     * The player creates a username
     * Words care completely randomized
     * The user decides what letters they choose
 * Player will be given 6 chances to figure out the word
 * If player can't figure out the word they lose the game
-* If player figures out the word the move on to the next word
+* If player figures out the word they move on to the next word
 
 \
 &nbsp;
@@ -105,7 +104,7 @@ The terminal that was provided by Code Institute to complete this project, used 
 
 ### Colours
 
-The colour scheme I have chosen is based on what The Riddler uses as his colors in the comics [Riddler Costume](https://www.gamelivestory.com/images/article/batman-8-times-riddler-acted-like-a-hero-in-the-comics-main.webp "Riddler Custome Colors"). Which was a bright [lime green](wireframes/images/color_contrast_green.png) and [electric purple](wireframes/images/color_contrast_purple.png). I used [Coolors](https://coolors.co/ "Coolors") to create the colors myself instead of generating them randomly since I already knew what I wanted. [contrast checker](https://webaim.org/resources/contrastchecker/ "contract checker") was used to contrast the colors as my background choice with a black foreground text. Only the electric purple didn't pass in one catergory. Regardless I won't have text over these colors since they will only be the background colors and not run in the termimal.
+The colour scheme I have chosen is based on what The Riddler uses as his colours in the comics [Riddler Costume](https://www.gamelivestory.com/images/article/batman-8-times-riddler-acted-like-a-hero-in-the-comics-main.webp "Riddler Custome Colours"). Which was a bright [lime green](wireframes/images/color_contrast_green.png) and [electric purple](wireframes/images/color_contrast_purple.png). I used [Coolors](https://coolors.co/ "Coolors") to create the colours myself instead of generating them randomly since I already knew what I wanted. [Contrast checker](https://webaim.org/resources/contrastchecker/ "contract checker") was used to contrast the colours as my background choice with a black foreground text. Only the electric purple didn't pass in one catergory. Regardless I won't have text over these colours since they will only be the background colors and not run in the termimal.
 
 [Colour Scheme](wireframes/images/coolors_scheme.png)
 
@@ -135,7 +134,7 @@ I created 3 choice inputs for the start of the game.
 2. High Scores
 3. Exit
 
-From ther the logic can be followed with the flow chart structure below. 
+From there the logic can be followed with the flow chart structure below. 
 
 \
 &nbsp;
@@ -185,7 +184,7 @@ Image of the home screen when the player runs the program. The user will be gree
 \
 &nbsp;
 
-* The next image is of the game itself which is that of the old school hangman game but with the twist that it's Robin you have to save from being hung. The user with have to guess letters 1 by 1 in order to solve the word. When the user makes a guess whether correct or wong a * asterisk will fill the place of the letters gussed so the user knows not to choose that letter again. However in this game that is still a possibility in which the user will get a string that let's them know they already guessed that letter and still waste an attempt.
+* The next image is of the game itself which is that of the old school hangman game but with the twist that it's Robin you have to save from being hung. The user will have to guess letters one by one in order to solve the word. When the user makes a guess whether correct or wong a '*' asterisk will fill the place of the letters guessed so that user knows not to choose that letter again. However in this game if the user types in a letter already guessed then they will have wasted an attempt.
 
 ![Play Game](wireframes/images/play-image.jpg)
 
@@ -206,7 +205,7 @@ Image of the home screen when the player runs the program. The user will be gree
 \
 &nbsp;
 
-* Guess the letters screen allows the player to guess what letters belong in the word.
+* Guessing the letters screen allows the player to guess what letters belong in the word.
 
 ![Guess](wireframes/images/guess-image.jpg)
 
@@ -339,7 +338,7 @@ From this testing, I implemented the changes that were recommended as they were 
 |Feedback on performance | Yes | Yes | Many suggestions that I won't be able to complete
 | Clear instruction as to when the game starts and finishes | Yes | Yes | Create username and have a scoring system
 |Validation of user inputs| Yes | Yes | Validate all user inputs with no errors
-| Feedback to the user on their input to the game | Yes | Yes | Allow the user to know if they pressed the incorrect key or correct key with string information
+| Feedback to the user on their input to the game | Yes | Yes | Allow the user to know if they pressed the incorrect key or correct key by showing them a description that validates that input choice
 | Option of reading the rules or not | Yes | No | Was not able to complete on time but would of loved to, still think it's simplified enough to learn as you go with the input information
 
 &nbsp;
@@ -350,7 +349,7 @@ From this testing, I implemented the changes that were recommended as they were 
 | ------------ | ----------- | ------ | --------
 | Create username | Yes | Yes | letters only
 | High score system | Yes | Yes | Works with every user created but only top 5 scores get added to data sheet
-| Close out the game | Yes | Yes | The terminal closes and nothing works, no way to reboot it, only freshing the page will work
+| Close out the game | Yes | Yes | The terminal closes and nothing works, no way to reboot it with inputs except by clicking on the *RUN PROGRAM* button above the terminal box.
 | Clear instruction as to how to play the game | No | No | No time but instructions are simplified
 | Know the outcome of the game, win, lose | Yes | Yes | Displayed at the end of the game
 
