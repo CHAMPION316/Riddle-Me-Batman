@@ -170,23 +170,22 @@ The game will be built using a pre-built template that Code Institute has provid
 
 ## Existing Features
 
-Image of the home screen when the player runs the program. The user will be greeted with the 3 input options.
-    * Play Game
-    * High Scores
-    * Exit
+Image of the home screen when the player runs the program. The user will be greeted with the 3 input options. With a text at the very bottom that will ask the user to 
 
-\
-&nbsp;
+**Please choose an option :**
+
+    Typing 1 = Play Game
+    Typing 2 = High Scores
+    Typing 3 = Exit
+
+*(Input 3 will close out the terminal like exiting any program)*
 
 ![Home Screen](wireframes/images/home-image.jpg)
 
 \
 &nbsp;
 
-* The next image is of the game itself which is that of the old school hangman game but with the twist that it's Robin you have to save from being hung. The user with have to guess letters 1 by 1 in order to solve the word. When the user makes a guess whether correct or wong a * asterisk will fill the place of the letters gussed so the user knows not to choose that letter again. However in this game that is still a possibility in which the user will get a string that let's them know they already guessed that letter and still waste an attempt. 
-
-\
-&nbsp;
+* The next image is of the game itself which is that of the old school hangman game but with the twist that it's Robin you have to save from being hung. The user with have to guess letters 1 by 1 in order to solve the word. When the user makes a guess whether correct or wong a * asterisk will fill the place of the letters gussed so the user knows not to choose that letter again. However in this game that is still a possibility in which the user will get a string that let's them know they already guessed that letter and still waste an attempt.
 
 ![Play Game](wireframes/images/play-image.jpg)
 
@@ -195,18 +194,12 @@ Image of the home screen when the player runs the program. The user will be gree
 
 * The score image list the top 5 players who were able to guess the most DC characters ever. If a user surpasses the score of of anyone of the top 5 players they will be added to the top 5 list and remove those that have the lowest score.
 
-\
-&nbsp;
-
 ![Scores](wireframes/images/score-image.jpg)
 
 \
 &nbsp;
 
 * The username input field appears at the bottom underneath the game letters. From there the player will create a username that will allow them to play the game and have the chance to have their name recorded into the top 5 list if they are good enough.
-
-\
-&nbsp;
 
 ![Username](wireframes/images/username-image.jpg)
 
@@ -215,18 +208,12 @@ Image of the home screen when the player runs the program. The user will be gree
 
 * Guess the letters screen allows the player to guess what letters belong in the word.
 
-\
-&nbsp;
-
 ![Guess](wireframes/images/guess-image.jpg)
 
 \
 &nbsp;
 
 * Guessing incorrectly results in the following image within the game.
-
-\
-&nbsp;
 
 ![Guess Wrong](wireframes/images/guess-wrong.jpg)
 
@@ -235,18 +222,12 @@ Image of the home screen when the player runs the program. The user will be gree
 
 * Guessing correctly results in the following image within the game.
 
-\
-&nbsp;
-
 ![Guess Correct](wireframes/images/guess-correct.jpg)
 
 \
 &nbsp;
 
 * A repeated guess results in the following image.
-
-\
-&nbsp;
 
 ![Repeat Guess](wireframes/images/repeat-guess.jpg)
 
@@ -257,9 +238,6 @@ Image of the home screen when the player runs the program. The user will be gree
     * 'Y' for Yes
     * 'N' for No
 
-\
-&nbsp;
-
 ![Win](wireframes/images/win-image.jpg)
 
 \
@@ -269,9 +247,6 @@ Image of the home screen when the player runs the program. The user will be gree
     * 'Y' for Yes
     * 'N' for No
 
-\
-&nbsp;
-
 ![Lose](wireframes/images/lose-image.jpg)
 
 \
@@ -280,9 +255,6 @@ Image of the home screen when the player runs the program. The user will be gree
 * Google spreadsheets works with the data being sent to it by the game.
     * Username
     * Score
-
-\
-&nbsp;
 
 ![Data](wireframes/images/data-image.jpg)
 
