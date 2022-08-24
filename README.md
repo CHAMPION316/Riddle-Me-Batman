@@ -529,3 +529,24 @@ pip3 install gspread google-auth
 * In the Automatic deploys section, click **Enable Automatic Deploys**. This updates every time GitHub code is pushed
 * To complete the process click on the **Deploy Brach** button in the Manual deploy section, this will take a few seconds to complete while Heroku builds the app
 * A message will appear informing you that the app was successfully deployed and a **View** button will bring you to the live site
+
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+# Credits
+
+* [Code Institute](https://codeinstitute.net/se/"CI") for the template as well as the tutors and student care
+* [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin") for being the best mentor ever
+* [Stackoverflow](https://stackoverflow.com/) for having users breakdown code and helping others with similiar questions
+* **Emelie Sandberg** My beautiful wife for always being there when I need her during my days of struggle with the course
+* **Friends and Family** who tested out the game and gave me feedback
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
