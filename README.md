@@ -306,3 +306,13 @@ Image of the home screen when the player runs the program. The user will be gree
 * For the colour pallet [Coolors](https://coolors.co/ "coolors")
 * For the API [Google Cloud Platform](https://en.wikipedia.org/wiki/Google_Cloud_Platform "GCP") 
 * To hold the completed game data [Google Sheets](https://en.wikipedia.org/wiki/Google_Sheets "Sheets")
+
+# Testing
+
+I tested using friends and families and asked them for their input.
+
+I informed everyone that it's based on a hangman game but with the twist that it's centered around 'The Riddler' a villain of Batman and you have to save Robin by guessing the words which are based on the DC Universe characters from the comics.
+
+I asked them to cover all bases, from losing to winning and trying all inputs within the game.
+
+&nbsp;
