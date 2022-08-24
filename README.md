@@ -353,3 +353,13 @@ From this testing, I implemented the changes that were recommended as they were 
 | Close out the game | Yes | Yes | The terminal closes and nothing works, no way to reboot it, only freshing the page will work
 | Clear instruction as to how to play the game | No | No | No time but instructions are simplified
 | Know the outcome of the game, win, lose | Yes | Yes | Displayed at the end of the game
+
+&nbsp;
+
+&nbsp;
+
+| Site Owners Goals | Implemented | Tested | Comments
+| ------------ | ----------- | ------ | --------
+| Create clear spacing between sentences | Yes | Yes | Line spacing and delay printing of text
+| Give the user feedback on performance | Yes | Yes | Will display at the end of the game
+| Ensure that there is validation for expected answers on all user inputs | Yes | Yes | Validation created for all user entries
