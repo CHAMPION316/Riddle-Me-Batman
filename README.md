@@ -297,3 +297,36 @@ Image of the home screen when the player runs the program. The user will be gree
 [Back to Top](#table-of-contents)
 \
 &nbsp;
+
+# Technologies used
+
+## Languages
+* [HTML](https://en.wikipedia.org/wiki/HTML5 "HTML") for the structure of the site
+* [CSS](https://en.wikipedia.org/wiki/CSS "CSS") for the design of the site
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript "JS") was built into the template supplied by Code Institute
+* [Python](https://en.wikipedia.org/wiki/Python_(programming_language) "Python") for the game code
+* [StackEdit](https://stackedit.io/app#) for the content in my README file
+
+\
+&nbsp;
+
+## Libraries and Frameworks
+
+* Python package for Google Sheets [gspread](https://docs.gspread.org/en/v4.0.1/)
+* For delying the appearance of the text [python time library](https://docs.gspread.org/en/v4.0.1/ ".py time")
+* For selecting a random word from the word list [python random library](https://docs.python.org/3/library/random.html?#module-random ".py random")
+
+\
+&nbsp;
+
+## Tools
+
+* For construction [Gitpod](https://www.gitpod.io/ "Gitpod")
+* For wireframes [Balsamic](https://balsamiq.com/wireframes/ "Balsamic")
+* For python code validation [PEP8 online](http://pep8online.com/ "PEP8")
+* For HTML validation [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
+* For general code queries [W3Schools](https://www.w3schools.com/ "W3Schools")
+* For python queries [python](https://www.python.org/ "py")
+* For the colour pallet [Coolors](https://coolors.co/ "coolors")
+* For the API [Google Cloud Platform](https://en.wikipedia.org/wiki/Google_Cloud_Platform "GCP") 
+* To hold the completed game data [Google Sheets](https://en.wikipedia.org/wiki/Google_Sheets "Sheets")
