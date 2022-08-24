@@ -316,3 +316,13 @@ I informed everyone that it's based on a hangman game but with the twist that it
 I asked them to cover all bases, from losing to winning and trying all inputs within the game.
 
 &nbsp;
+
+| Age | Tech Experience | Task Completed | Comments/ Improvements
+| --- | ----------      | -------------  | --------
+|  31 | Limited         | No             | Can you add color?
+| 32  | Limited         | Yes            | Can you give hints to the word?
+| 39  | Moderate        | Yes            | Make it so I don't have to capitalize my letters
+| 26  | Advanced        | Yes            | Can you have a counter of attempts on the side?
+| 55  | Moderate        | No             | I like the design but don't know about heroes
+| 8   | None            | Yes            | This is a old game and boring
+| 41  | Limited         | Yes            | Not bad, add more characters
