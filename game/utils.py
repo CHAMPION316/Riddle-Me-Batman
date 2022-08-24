@@ -1,6 +1,7 @@
 import time
 import os
 
+
 def delay_print(text, delay):
     """
     Delays the print statement
