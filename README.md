@@ -363,3 +363,10 @@ From this testing, I implemented the changes that were recommended as they were 
 | Create clear spacing between sentences | Yes | Yes | Line spacing and delay printing of text
 | Give the user feedback on performance | Yes | Yes | Will display at the end of the game
 | Ensure that there is validation for expected answers on all user inputs | Yes | Yes | Validation created for all user entries
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
