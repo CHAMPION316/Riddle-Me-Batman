@@ -326,3 +326,18 @@ I asked them to cover all bases, from losing to winning and trying all inputs wi
 | 55  | Moderate        | No             | I like the design but don't know about heroes
 | 8   | None            | Yes            | This is a old game and boring
 | 41  | Limited         | Yes            | Not bad, add more characters
+
+&nbsp;
+
+From this testing, I implemented the changes that were recommended as they were all within my capabilities and not time-consuming to achieve.
+
+### UX Testing
+
+| Requirements & Expectations | Implemented | Tested | Comments
+| ------------ | ----------- | ------ | --------
+|Single page layout | Yes | Yes | Provided by Code Institute template
+|Feedback on performance | Yes | Yes | Many suggestions that I won't be able to complete
+| Clear instruction as to when the game starts and finishes | Yes | Yes | Create username and have a scoring system
+|Validation of user inputs| Yes | Yes | Validate all user inputs with no errors
+| Feedback to the user on their input to the game | Yes | Yes | Allow the user to know if they pressed the incorrect key or correct key with string information
+| Option of reading the rules or not | Yes | No | Was not able to complete on time but would of loved to, still think it's simplified enough to learn as you go with the input information
