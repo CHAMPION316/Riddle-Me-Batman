@@ -451,3 +451,19 @@ The project repository was created using the *Code-Institute-Org/python-essentia
 * Open the hamburger in the top left corner and select **APIs and Services** and the **Library**
 * In the Search bar type *Google Sheets* and then select **Google Sheets API**
 * Click **Enable**
+
+ 
+### Clone the repo with GitPod
+* Log in to your GitHub account
+* Follow this link to access this repository - [52 card golf repo](https://github.com/CHAMPION316/Riddle-Me-Batman)
+* Select the **Code** dropdown button situated above the list of files
+* Make sure that the HTTPS tab is selected
+* Click on the **Copy** button to the right of the URL
+* Open a new GitPod workspace
+* In the terminal type the following code and then press enter
+```
+git clone https://github.com/CHAMPION316/Riddle-Me-Batman
+```
+* The repo will now be downloaded and cloned
+* Open your [GitPod workspaces](https://gitpod.io/workspaces "GitPod workspaces")
+* Select the three dots to the right-hand side of your workspace and select **Pin**
