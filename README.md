@@ -391,9 +391,9 @@ Using the [PEP8](http://pep8online.com/ "PEP8") code validator for the Python co
 
 I had a few bugs in the creation of the project. 
 
-* I had a major issue sending the data over to google sheets and would receive a index error. So instead of having the username and score on the same column I opted to have both on back to back columns as you can see on this [image](wireframes/images/data-image.jpg) and just have the data progress that way.
+* I had a major issue sending the data over to google sheets and would receive a index error. So instead of having the username and score on the same column I opted to have both on back to back columns as you can see on this [**image**](wireframes/images/data-image.jpg) and just have the data progress that way.
 
-    * This is on my list of things I would of wish I would of had time to fix
+    * This is on my list of things I would of wished I would of had time to fix
 
 * Another issue I encountered was that I didn't set up the while loop correctly for the attempt lives which gave the player infinite lives on taking guesses. This was fixed after about a day and a half when I reliazed it.
 
