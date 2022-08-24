@@ -341,3 +341,15 @@ From this testing, I implemented the changes that were recommended as they were 
 |Validation of user inputs| Yes | Yes | Validate all user inputs with no errors
 | Feedback to the user on their input to the game | Yes | Yes | Allow the user to know if they pressed the incorrect key or correct key with string information
 | Option of reading the rules or not | Yes | No | Was not able to complete on time but would of loved to, still think it's simplified enough to learn as you go with the input information
+
+&nbsp;
+
+&nbsp;
+
+| User Goals | Implemented | Tested | Comments
+| ------------ | ----------- | ------ | --------
+| Create username | Yes | Yes | letters only
+| High score system | Yes | Yes | Works with every user created but only top 5 scores get added to data sheet
+| Close out the game | Yes | Yes | The terminal closes and nothing works, no way to reboot it, only freshing the page will work
+| Clear instruction as to how to play the game | No | No | No time but instructions are simplified
+| Know the outcome of the game, win, lose | Yes | Yes | Displayed at the end of the game
