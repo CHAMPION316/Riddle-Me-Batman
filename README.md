@@ -297,8 +297,10 @@ Image of the home screen when the player runs the program. The user will be gree
 
 * For construction [Gitpod](https://www.gitpod.io/ "Gitpod")
 * For wireframes [Balsamic](https://balsamiq.com/wireframes/ "Balsamic")
+* For CSS validation [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
 * For python code validation [PEP8 online](http://pep8online.com/ "PEP8")
 * For HTML validation [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
+* For the contract checking [WebAIM](https://webaim.org/resources/contrastchecker/ "WebAIM")
 * For general code queries [W3Schools](https://www.w3schools.com/ "W3Schools")
 * For python queries [python](https://www.python.org/ "py")
 * For the colour pallet [Coolors](https://coolors.co/ "coolors")
