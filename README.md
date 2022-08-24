@@ -407,3 +407,18 @@ I had a few bugs in the creation of the project.
 [Back to Top](#table-of-contents)
 \
 &nbsp;
+
+# Deployment
+
+The site was deployed via Heroku. Here is the live link - [Riddle Me Batman](https://riddle-me-batman.herokuapp.com/ "link")
+
+The project repository was created using the *Code-Institute-Org/python-essentials-template* on GitHub and edited using GitPod.
+
+### Create a Google Sheets document
+* Log in to your Google account. If you do not have one, create a personal one [here](https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp "Create Google Account")
+* In the Google Apps, waffle in the top right corner of the screen select **Sheets**
+* In the *Start a new spreadsheet* section, select **Blank**
+* These next naming stages are critical, please ensure they are correct
+* Give your new Google Sheets workbook a name of *riddle_me_batman* in the top left corner
+* Give your worksheet a name of *highscores* in the bottom left corner
+* Create your column headings
