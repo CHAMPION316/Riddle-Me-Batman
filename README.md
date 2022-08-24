@@ -422,3 +422,32 @@ The project repository was created using the *Code-Institute-Org/python-essentia
 * Give your new Google Sheets workbook a name of *riddle_me_batman* in the top left corner
 * Give your worksheet a name of *highscores* in the bottom left corner
 * Create your column headings
+
+| Cell Reference | Content 
+| ------| -----
+| A1 | Username
+| B1 | Scores
+
+### Activate API Credentials
+* Open the *Google Cloud Platform* by following this [link](https://console.cloud.google.com/?pli=1 "Google Cloud Platform")
+* Ensure the correct account is selected in the top right corner of the screen
+* Click on the **Select a project** button in the main navbar
+* Then select **New Project**
+* Give the project a name and click **Create**
+* In the information box, select **Select Project**
+* Open the hamburger in the top left corner and select **APIs and Services** and the **Library**
+* In the Search bar type *Google Drive* and then select **Google Drive API**
+* Click **Enable**
+* Click **Create Credentials** button in the top right corner of the screen
+* From the dropdown, select *Google Drive API*
+* Select *Application data* and then *No, I'm not using them* and click on **Next**
+* Enter a *Service account name*, this can be anything you like and click on **Create and Continue**
+* From the *Select a role* dropdown, hover over *Basic* and select **Editor** the click on **Done**
+* On the next screen, click on the long email address in the *Service Accounts* section
+* In the navigation tabs below your service account name, select *KEYS*
+* Click on the *ADD KEY* dropdown and select **Create new key**
+* Ensure *JSON* is selected and then click on **Create**
+* This downloads the credentials file, usually this will be downloaded to your downloads folder, but check its location by right-clicking on it at the bottom of the screen and select **Show in folder**
+* Open the hamburger in the top left corner and select **APIs and Services** and the **Library**
+* In the Search bar type *Google Sheets* and then select **Google Sheets API**
+* Click **Enable**
