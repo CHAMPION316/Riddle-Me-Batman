@@ -184,7 +184,7 @@ Image of the home screen when the player runs the program. The user will be gree
 \
 &nbsp;
 
-* The next image is of the game itself which is that of the old school hangman game but with the twist that it's Robin you have to save from being hung. The user will have to guess letters one by one in order to solve the word. When the user makes a guess whether correct or wong a '*' asterisk will fill the place of the letters guessed so that user knows not to choose that letter again. However in this game if the user types in a letter already guessed then they will have wasted an attempt.
+* The next image is of the game itself which is that of the old school hangman game but with the twist that it's Robin you have to save from being hung. The user will have to guess letters one by one in order to solve the word. When the user makes a guess whether correct or wrong a '*' asterisk will fill the place of the letters guessed so that user knows not to choose that letter again. However in this game if the user types in a letter already guessed then they will have wasted an attempt.
 
 ![Play Game](wireframes/images/play-image.jpg)
 
@@ -233,7 +233,7 @@ Image of the home screen when the player runs the program. The user will be gree
 \
 &nbsp;
 
-* Winning the game results in the following image with the 2 options to play again or not by using the following inputs.
+* Winning the game results in the following image with two options, to play again or not by using the following inputs.
     * 'Y' for Yes
     * 'N' for No
 
@@ -242,7 +242,7 @@ Image of the home screen when the player runs the program. The user will be gree
 \
 &nbsp;
 
-* Losing the game results in the following image with the 2 options to play again or not by using the following inputs.
+* Losing the game results in the following image with two options, to play again or not by using the following inputs.
     * 'Y' for Yes
     * 'N' for No
 
@@ -262,7 +262,7 @@ Image of the home screen when the player runs the program. The user will be gree
 
 ## Features to be Implemented
 
-1. Riddle array that attaches at the bottom of the game letters box
+1. Riddle array that attaches at the bottom of the game letters box by corresponding to a specific word
 1. Sound effects for guessing the correct letter and wrong letter
 
 \
@@ -399,7 +399,9 @@ I had a few bugs in the creation of the project.
 
 ## Unfixed Bugs
 
-* On mobile screens the game is chopped up and I was unable to fix this issue on time. You can see most of the terminal but the left and right end disappear on the screen.
+* On mobile screens the game is chopped up and I was unable to fix this issue on time. You can see most of the terminal but the left and right end disappear on the screen. 
+
+    * [Mobile Image Issue](wireframes/images/mobile-width-issue.jpg)
 
 \
 &nbsp;
