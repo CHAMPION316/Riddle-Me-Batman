@@ -39,8 +39,7 @@ The goal of this project is to save Robin by guessing words set forth by The Rid
 # UX
 
 ## User Goals
-* Read rules
-* Type in a user name
+* Type in a username
 * View High Scores
 * Exit the Game
 
@@ -53,8 +52,8 @@ The goal of this project is to save Robin by guessing words set forth by The Rid
 ## Site owners Goals
 * Have a visual presentation of the game 
 * Give the user feedback on performance
-* Ensure that there is validation for expected answers on all user inputs
-* Simplify user input directions
+* Ensure that there is validation for expected keystrokes on all user inputs
+* Simple user input instructions
 
 ## User Requirements and Expectations
 
@@ -68,7 +67,7 @@ The goal of this project is to save Robin by guessing words set forth by The Rid
 ### Expectations
 * I expect to have a username
 * I expect to know when the game starts and finishes
-* I expect the game not to crash if incorrect input is typed
+* I expect the game not to crash if the incorrect input is entered
 * I expect feedback on performance
 
 \
@@ -83,13 +82,14 @@ The goal of this project is to save Robin by guessing words set forth by The Rid
     * 1 Player Game
     * Words will be randomized
     * Lives will be deducted for incorrect guesses or same letter guesses
-* User will be given a riddle to solve the word
     * The player creates a username
-    * Words care completely randomized
+    * Words are completely randomized
     * The user decides what letters they choose
 * Player will be given 6 chances to figure out the word
 * If player can't figure out the word they lose the game
-* If player figures out the word they move on to the next word
+* If player figures out the word they win the game then choose to play again or not
+    * Choosing to play again randomizes a new word 
+    * Choosing not to play again takes the user back to the main menu
 
 \
 &nbsp;
