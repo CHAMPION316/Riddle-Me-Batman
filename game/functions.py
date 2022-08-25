@@ -107,7 +107,7 @@ def validate_guess(guess, guessed_letters):
        guess not in guessed_letters):
         return True
     if guess in guessed_letters:
-        print("You've already guessed the letter: " + guess)
+        print(f"You've already guessed that letter {player}: " + guess)
     if guess.isalpha() is False:
         print("Guess is not valid, please try again.")
     return False
@@ -142,11 +142,11 @@ def play(word, game_letters):
                 game_letters2 = game_letters2.replace(guess.upper(), '*')
                 if check_if_guess_in_word(guess, word):
                     completed_word = replace_guess(word, completed_word, guess)
-                    print("Well done!", guess, "is in the word.")
+                    print(f"Good job {player}!", guess, "is in the word.")
                     if completed_word.upper() == word.upper():
                         guessed = True
                 else:
-                    print("Sorry " + guess + " is not in the word.")
+                    print(f"Unfortunately {player}, " + guess + " is not in the word.")
                     attempts -= 1
             else:
                 if guess.isalpha():
