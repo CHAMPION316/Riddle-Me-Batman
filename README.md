@@ -456,7 +456,7 @@ The project repository was created using the *Code-Institute-Org/python-essentia
  
 ### Clone the repo with GitPod
 * Log in to your GitHub account
-* Follow this link to access this repository - [52 card golf repo](https://github.com/CHAMPION316/Riddle-Me-Batman)
+* Follow this link to access this repository - [Riddle-Me-Batman](https://github.com/CHAMPION316/Riddle-Me-Batman)
 * Select the **Code** dropdown button situated above the list of files
 * Make sure that the HTTPS tab is selected
 * Click on the **Copy** button to the right of the URL
