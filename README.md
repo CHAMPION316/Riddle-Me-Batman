@@ -411,7 +411,7 @@ I had a few bugs in the creation of the project.
 
 # Deployment
 
-The site was deployed via Heroku. Here is the live link - [Riddle Me Batman](https://riddle-me-batman.herokuapp.com/ "link")
+The site was deployed via Heroku. Here is the live link page - [Riddle Me Batman](https://riddle-me-batman.herokuapp.com/ "link")
 
 The project repository was created using the *Code-Institute-Org/python-essentials-template* on GitHub and edited using GitPod.
 
