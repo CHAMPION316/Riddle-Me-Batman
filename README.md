@@ -1,7 +1,10 @@
 # Riddle Me Batman
 ![Riddle Me Batman](wireframes/images/responsive.jpg)
 
-[View the live project here.](https://riddle-me-batman.herokuapp.com/)
+Live link can be found here - [Riddle Me Batman](https://riddle-me-batman.onrender.com "Riddle Me Batman")
+
+\
+&nbsp;
 
 # Goal for this Project
 The goal of this project is to save Robin by guessing words set forth by The Riddler. These words will be associated with other superheroes/villains from the DC Universe. The player will get to choose letters from the whole english alphabet in order to spell out the hero/villain that he/she thinks The Riddler is referring to. (You) the user are Batman aka *your own username* and your job is to save Robin who is currently kidnapped. The player will have 6 chances at guessing out the word otherwise The Riddler will hang Robin.
